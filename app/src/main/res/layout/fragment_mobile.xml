@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MobileFragment">
+
+    <TextView
+        android:id="@+id/brandMtextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brand/Company"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Mob_Brand"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter Brand name"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/ModelMtextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Model"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Mob_Model"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter  model"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/colorMtextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Mob_color"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter color"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/AspectstextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Storage"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Mob_Storage"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="RAM , ROM"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+
+
+
+
+
+</LinearLayout>

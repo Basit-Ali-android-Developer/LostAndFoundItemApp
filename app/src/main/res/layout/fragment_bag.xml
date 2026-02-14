@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BagFragment">
+
+    <TextView
+        android:id="@+id/brandtextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/B_Brand"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter Brand name"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/MaterialtextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stuff"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/B_stuff"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter  Stuff"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/colortextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/B_Color"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter color of Bag"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/TypetextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/B_Type"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter type of Bag"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_new_report"
+    android:orientation="vertical">
+
+
+
+
+
+
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+
+              <ImageButton
+                  android:id="@+id/back_button"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:background="@android:color/transparent"
+                  android:layout_marginLeft="10dp"
+                  android:padding="10dp"
+                  android:src="@drawable/back_button_image" />
+
+               <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="New Report"
+                  android:textStyle="bold"
+                  android:textSize="25dp"
+                   android:textColor="@color/black"
+                  android:layout_marginLeft="50dp"
+                  android:gravity="center"/>
+         </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#009667" />
+
+
+
+
+    <android.widget.ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- LinearLayout containing the scrollable content -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- ImageView and camera icon section -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_placeholder"
+                    android:background="@drawable/circle_background" />
+                <ImageButton
+                    android:id="@+id/btn_camera_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignBottom="@id/imageView"
+                    android:layout_alignEnd="@id/imageView"
+                    android:background="@drawable/circle_background"
+                    android:src="@drawable/ic_camera"
+                    android:contentDescription="Camera Icon"
+                    android:padding="8dp" />
+            </RelativeLayout>
+
+            <!-- Spinner for selecting item -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp">
+                <TextView
+                    android:id="@+id/dropDown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="select item"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="left"/>
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/dropDown"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:gravity="left"/>
+            </RelativeLayout>
+
+            <!-- Dynamic attributes container (optional) -->
+            <LinearLayout
+                android:id="@+id/Dynamic_attribute_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="15dp"/>
+
+            <!-- RadioGroup for Missing/Found options -->
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Missing item"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="70dp"
+                    android:buttonTint="#009667"/>
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Found item"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:buttonTint="#009667"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+
+                >
+
+                <RadioButton
+                    android:id="@+id/urgent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Urgent"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="70dp"
+                    android:buttonTint="#009667"
+                    />
+
+            </RadioGroup>
+
+            <!-- Lost/Found attributes container (optional, dynamic content can go here) -->
+            <LinearLayout
+                android:id="@+id/LostFoundAttributesContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="25dp"
+                android:paddingTop="15dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="25dp"/>
+
+            <!-- Submit button (optional) -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/report_submit_btn"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_background"
+                android:text="Submit"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+    </android.widget.ScrollView>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KeysFragment">
+
+    <TextView
+        android:id="@+id/materialtextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Material"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Ke_Material"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter material of keys"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/TyptextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Ke_Type"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter  Type of keys"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/idntextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Identification Mark"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Ke_Idn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter Serial No or Logo "
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+
+
+
+</LinearLayout>

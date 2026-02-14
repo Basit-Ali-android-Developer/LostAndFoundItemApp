@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/appss">
+
+        <item
+            android:id="@+id/AdminReports"
+            android:title="Reports"
+            />
+
+        <item
+            android:id="@+id/AdminFound"
+            android:title="Found Items"
+            />
+        <item
+            android:id="@+id/AdminDelivered"
+            android:title="Delivered Item"
+            />
+        <item
+            android:id="@+id/AdminAuction"
+            android:title="Auction"
+            />
+
+        <item
+            android:id="@+id/AdminAuctionHistroy"
+            android:title="AuctionHistory"
+            />
+
+    </group>
+    <group
+        android:id="@+id/Admin">
+        <item
+            android:id="@+id/AdminProfile"
+            android:title="Profile"
+            />
+
+        <item
+            android:id="@+id/Adminsignout"
+            android:title="Sign Out"
+            />
+    </group>
+
+
+</menu>

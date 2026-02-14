@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GlassesFragment">
+
+    <TextView
+        android:id="@+id/brandtextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Gl_Brand"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter Brand name"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/MaterialtextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Material"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Gl_Material"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter  material"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/TypetextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Gl_Type"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter type of glasses"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/LensColortextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lens Color"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Gl_LensColor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter Color of  Lens"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/FrameColortextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frame Color"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/Gl_FrameColor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter Color of Frame "
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#707070"
+        android:textSize="15sp" />
+
+
+
+
+</LinearLayout>
